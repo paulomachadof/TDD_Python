@@ -1,0 +1,27 @@
+1510024185829	geckodriver	INFO	geckodriver 0.19.1
+1510024185835	geckodriver	INFO	Listening on 127.0.0.1:49147
+1510024186965	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.TiGW8MZahkDX"
+1510024187235	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1510024187970	Marionette	INFO	Enabled via --marionette
+1510024190585	Marionette	INFO	Listening on port 35287
+1510024190707	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510024190767	Marionette	DEBUG	Register listener.js for window 2147483649
+1510024190797	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510024190814	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510024190817	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510024190818	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1510024190864	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=connectionFailure&u=http%3A//localhost%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8000."
+1510024210567	geckodriver	INFO	geckodriver 0.19.1
+1510024210572	geckodriver	INFO	Listening on 127.0.0.1:42553
+1510024211683	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.pkc7u9XLCQky"
+1510024211952	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1510024212726	Marionette	INFO	Enabled via --marionette
+1510024215508	Marionette	INFO	Listening on port 46299
+1510024215610	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510024215671	Marionette	DEBUG	Register listener.js for window 2147483649
+1510024215712	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510024215732	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510024215732	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1510024215740	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1510024215759	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
