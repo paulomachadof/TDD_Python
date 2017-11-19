@@ -1,0 +1,50 @@
+1510261294120	geckodriver	INFO	geckodriver 0.19.1
+1510261294140	geckodriver	INFO	Listening on 127.0.0.1:51649
+1510261295305	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.WbHOGVTpxzBx"
+1510261295661	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1510261296463	Marionette	INFO	Enabled via --marionette
+1510261300254	Marionette	INFO	Listening on port 41427
+1510261300330	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510261300391	Marionette	DEBUG	Register listener.js for window 2147483649
+1510261300415	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510261300429	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510261300429	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1510261300436	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1510261300455	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1510261323975	geckodriver	INFO	geckodriver 0.19.1
+1510261323980	geckodriver	INFO	Listening on 127.0.0.1:36413
+1510261325099	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.buB77EaAP8Km"
+1510261325344	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1510261326033	Marionette	INFO	Enabled via --marionette
+1510261328627	Marionette	INFO	Listening on port 40913
+1510261328729	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510261328779	Marionette	DEBUG	Register listener.js for window 2147483649
+1510261328810	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510261328822	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510261328826	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510261328826	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1510261328858	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=connectionFailure&u=http%3A//localhost%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8000."
+1510848549038	geckodriver	INFO	geckodriver 0.19.1
+1510848549122	geckodriver	INFO	Listening on 127.0.0.1:58991
+1510848550416	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.rZjf588NKap7"
+1510848556195	Marionette	INFO	Enabled via --marionette
+1510848563911	Marionette	INFO	Listening on port 37227
+1510848564140	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510848564232	Marionette	DEBUG	Register listener.js for window 2147483649
+1510848564549	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510848564697	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510848564743	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510848564743	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1510848564985	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=connectionFailure&u=http%3A//localhost%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8000."
+1510848673159	geckodriver	INFO	geckodriver 0.19.1
+1510848673164	geckodriver	INFO	Listening on 127.0.0.1:56025
+1510848674273	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.qVtfKthyiBvW"
+1510848675122	Marionette	INFO	Enabled via --marionette
+1510848678416	Marionette	INFO	Listening on port 44717
+1510848678603	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510848678701	Marionette	DEBUG	Register listener.js for window 2147483649
+1510848678726	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510848678747	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510848678747	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1510848678755	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1510848678773	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
